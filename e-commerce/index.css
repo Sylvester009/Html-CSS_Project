@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.cart-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.logo h1 {
+  color: rgb(43, 66, 66);
+  font-size: 29px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 8px;
+}
+
+.header-search {
+  width: 440px;
+  height: 50%;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 10px;
+}
+
+.location-btn {
+  padding: 9px 45px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+}
+
+.sub-tags {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.header2,
+.main {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.header-dept {
+  background: #13ca13;
+  border: 1px solid #13ca13;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  word-spacing: 4px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.nav {
+  margin-left: 32px;
+}
+
+.nav a {
+  color: #505e5e;
+  text-decoration: none;
+  font-weight: 501;
+  padding-inline: 10px;
+}
+
+.nav a:hover {
+  color: #13ca13;
+}
+
+hr {
+  color: #e6ddd9;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.image-div {
+  width: 85%;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.veggies-image {
+  width: 100%;
+  height: 550px;
+}
+
+.header-text {
+  position: absolute;
+  top: 60%;
+  left: 13%;
+}
+
+.header-text h1 {
+  font-size: 55px;
+  color: rgb(43, 66, 66);
+  margin-bottom: 0px;
+}
+
+.header-price {
+  color: rgb(19, 202, 19);
+  padding-left: 15px;
+}
+
+.header-text p {
+  color: rgb(116, 111, 111);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-button {
+  background: black;
+  color: white;
+  padding: 10px 20px 10px 15px;
+  border: black 3px solid;
+  border-radius: 10%;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header-button:hover {
+  background-color: rgb(116, 111, 111);
+  position: relative;
+  z-index: 2;
+  border-color: rgb(116, 111, 111);
+}
+
+.ship {
+  background: orange;
+  color: black;
+  font-weight: bold;
+  padding: 0px 3px;
+  border: 1px solid orange;
+  border-radius: 3px;
+}
+
+.main h2 {
+  color: #2b4242;
+  font-size: 27px;
+}
+
+.f-category {
+  width: 100%;
+}
+
+.slide1 {
+  display: flex;
+  width: 100%;
+}
+
+.slide1-1 {
+  text-align: center;
+  border: 1px solid #bccccc;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-inline: 10px;
+}
+
+.slide1 p {
+  color: #746f6f;
+  font-weight: 501;
+}
+
+.g-banners {
+  display: flex;
+  margin-block: 60px;
+}
+
+.banners1 {
+  display: flex;
+  width: 49%;
+  margin-inline: 10px;
+}
+
+.m-0 {
+  margin-left: 0px;
+}
+
+.g-banners h2 {
+  margin-bottom: 0px;
+}
+
+.g-banners p {
+  margin-top: 5px;
+  color: rgb(116, 111, 111);
+  font-weight: 600;
+}
+
+.g-banners span {
+  font-weight: bold;
+}
+
+.banners1 img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  z-index: 2;
+  left: 150px;
+}
+
+.banner-text2 {
+  position: absolute;
+  z-index: 2;
+  right: 380px;
+}
